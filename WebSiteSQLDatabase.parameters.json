@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "hostingPlanName": {
+      "value": "B1"
+    },
+    "administratorLogin": {
+      "value": "sqladmin"
+    },
+    "administratorLoginPassword": {
+      "value": "Sql@2020"
+    },
+    "databaseName": {
+      "value": "sqdazewd001eventeng"
+    },
+    "sqlserverName": {
+      "value": "sqlazewd001eventeng"
+    },
+    "webSiteName": {
+      "value": "wapazewdmlns001eventeng"
+    }
+  }
+}
